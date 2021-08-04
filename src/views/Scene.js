@@ -1,6 +1,7 @@
 import React from "react";
 import { useThree } from "react-three-fiber";
 import Lights from "../components/Lights";
+import PoolTable from "../components/PoolTable";
 function Scene() {
   const { camera } = useThree();
 
@@ -14,11 +15,6 @@ function Scene() {
 
   return (
     <>
-      <mesh>
-        <boxBufferGeometry attach="geometry" args={[1, 1, 1]} />
-        <meshNormalMaterial attach="material" />
-      </mesh>
-
       <Lights
         type="AmbientLight"
         color={0xffffff}
@@ -40,6 +36,9 @@ function Scene() {
           castShadow
         />
       ))}
+      <React.Suspense fallback={<mesh />}>
+        <PoolTable />
+      </React.Suspense>
     </>
   );
 }
