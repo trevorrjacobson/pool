@@ -60,20 +60,20 @@ function Scene() {
       <object3D>
         <PoolBall position={[0, -16, 0]} textureURL={cueBall} />
         <PoolBall position={[-1.01, 15, 0]} textureURL={one} />
-        <PoolBall position={[1.01, 17, 0]} textureURL={two} />
-        <PoolBall position={[-0.51, 16, 0]} textureURL={three} />
-        <PoolBall position={[-1.01, 17, 0]} textureURL={four} />
-        <PoolBall position={[-2.02, 17, 0]} textureURL={five} />
-        <PoolBall position={[1.53, 16, 0]} textureURL={six} />
+        <PoolBall position={[1.01, 17, 0]} textureURL={five} />
+        <PoolBall position={[-0.51, 16, 0]} textureURL={four} />
+        <PoolBall position={[-1.01, 17, 0]} textureURL={two} />
+        <PoolBall position={[-2.02, 17, 0]} textureURL={six} />
+        <PoolBall position={[1.53, 16, 0]} textureURL={three} />
         <PoolBall position={[0.51, 14, 0]} textureURL={seven} />
         <PoolBall position={[0, 15, 0]} textureURL={eight} />
-        <PoolBall position={[0, 13, 0]} textureURL={nine} />
-        <PoolBall position={[0.51, 16, 0]} textureURL={ten} />
+        <PoolBall position={[0, 13, 0]} textureURL={fifteen} />
+        <PoolBall position={[0.51, 16, 0]} textureURL={twelve} />
         <PoolBall position={[2.02, 17, 0]} textureURL={eleven} />
-        <PoolBall position={[-0.51, 14, 0]} textureURL={twelve} />
+        <PoolBall position={[-0.51, 14, 0]} textureURL={fourteen} />
         <PoolBall position={[0, 17, 0]} textureURL={thirteen} />
-        <PoolBall position={[-1.53, 16, 0]} textureURL={fourteen} />
-        <PoolBall position={[1.01, 15, 0]} textureURL={fifteen} />
+        <PoolBall position={[-1.53, 16, 0]} textureURL={ten} />
+        <PoolBall position={[1.01, 15, 0]} textureURL={nine} />
       </object3D>
     </>
   );
